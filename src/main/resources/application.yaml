@@ -7,4 +7,11 @@ spring:
   cloud:
     servicecomb:
       discovery:
-        address: http://127.0.0.1:30100
+        address: https://172.16.0.67:30100
+        watch: false
+      credentials:
+        enabled: true
+        accessKey: PSRRRPIMBQUYMEKDQM9L
+        secretKey: sjjO4PiGjqaOEFbzx0i5VAaZbTDdHN7nEf56SJYJ
+        project: cn-east-3
+        akskCustomCipher: default
